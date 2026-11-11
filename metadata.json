@@ -1,0 +1,6 @@
+{
+  "name": "Luthier Elite",
+  "description": "Tienda exclusiva de instrumentos musicales artesanales, de cuerda, viento y percusión con tradición europea.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

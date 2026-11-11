@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Cinzel", Georgia, serif;
+  --font-sans: "Manrope", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", monospace;
+  --color-primary: #C5A059;
+  --color-primary-container: #1a1711;
+  --color-secondary: #888888;
+  --color-surface: #0A0A0A;
+  --color-surface-container: #111111;
+  --color-surface-container-high: #161616;
+  --color-surface-container-highest: #1a1a1a;
+  --color-outline: #333333;
+  --color-outline-variant: #222222;
+  --color-on-surface: #F0F0F0;
+  --color-on-surface-variant: #888888;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #0A0A0A;
+  color: #F0F0F0;
+  background-image: linear-gradient(to right, #141414 1px, transparent 1px),
+                    linear-gradient(to bottom, #141414 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.geometric-card {
+  background-color: #111111;
+  border: 1px solid #222222;
+  position: relative;
+}
+
+.geometric-card:hover {
+  border-color: #333333;
+}
+
+.geometric-accent-box {
+  background-color: #161616;
+  border: 1px solid #282828;
+}
+
+.geometric-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #333333, transparent);
+}
+
+.geometric-grid-bg {
+  background-image: radial-gradient(circle, #222222 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.contact-input {
+  background: #141414;
+  border: 1px solid #2a2a2a;
+  padding: 8px 12px;
+  font-family: 'Manrope', sans-serif;
+  color: #F0F0F0;
+  width: 100%;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.contact-input:focus {
+  outline: none;
+  border-color: #C5A059;
+  background-color: #181818;
+}
